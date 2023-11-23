@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204153625093",
+    "project_id": "test-firebase-vero",
+    "storage_bucket": "test-firebase-vero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204153625093:android:ddab632362b3f83e865a6c",
+        "android_client_info": {
+          "package_name": "me.ejemplo.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204153625093-2pitstbmmavvct92cm6cenidc91f0ecm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS5yFxaNwbTAovqTwd-OjEubogMAfHmYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204153625093-2pitstbmmavvct92cm6cenidc91f0ecm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

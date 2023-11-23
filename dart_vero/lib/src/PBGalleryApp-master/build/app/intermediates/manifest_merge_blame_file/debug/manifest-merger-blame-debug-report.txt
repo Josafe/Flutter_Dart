@@ -1,0 +1,383 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pbanyuls.proyecto_paco"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16
+17    <queries>
+17-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+18        <intent>
+18-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+19            <action android:name="android.intent.action.GET_CONTENT" />
+19-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+19-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+20
+21            <data android:mimeType="*/*" />
+21-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+21-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+25-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:24:22-65
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\9f15005d754c0374c068f2d68714f22b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\9f15005d754c0374c068f2d68714f22b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\9f15005d754c0374c068f2d68714f22b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+31
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+32-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:26:22-107
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\f42ec219aa64da1caa9dc024862b80af\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+33-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\f42ec219aa64da1caa9dc024862b80af\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
+34
+35    <application
+35-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:3:4-43:19
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.6.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\eb8d9937f7d1dda95540b9e161ea9375\core-1.6.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:5:9-43
+39        android:label="proyecto_paco" >
+39-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:4:9-38
+40        <meta-data
+40-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:6:1-7:73
+41            android:name="com.google.android.geo.API_KEY"
+41-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:6:12-57
+42            android:value="AIzaSyCOBbsxzNDdxMXQ7OV319_jbcKhsJKk3lU" />
+42-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:7:16-71
+43
+44        <activity
+44-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:9:9-37:20
+45            android:name="com.example.proyecto_paco.MainActivity"
+45-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:10:13-41
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:13:13-163
+47            android:hardwareAccelerated="true"
+47-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:14:13-47
+48            android:launchMode="singleTop"
+48-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:11:13-43
+49            android:theme="@style/LaunchTheme"
+49-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:12:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:15:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:20:13-23:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:21:15-70
+60                android:resource="@style/NormalTheme" />
+60-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:22:15-52
+61            <!--
+62                 Displays an Android View that continues showing the launch screen
+63                 Drawable until Flutter paints its first frame, then this splash
+64                 screen fades out. A splash screen is useful to avoid any visual
+65                 gap between the end of Android's launch screen and the painting of
+66                 Flutter's first frame.
+67            -->
+68            <meta-data
+68-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:29:13-32:17
+69                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+69-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:30:15-79
+70                android:resource="@drawable/launch_background" />
+70-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:31:15-61
+71
+72            <intent-filter>
+72-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:33:13-36:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:34:17-68
+73-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:34:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:35:17-76
+75-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:35:27-74
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+82-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:40:9-42:33
+83            android:name="flutterEmbedding"
+83-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:41:13-44
+84            android:value="2" />
+84-->C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\android\app\src\main\AndroidManifest.xml:42:13-30
+85
+86        <service
+86-->[:firebase_auth] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[:firebase_auth] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\f8999f3ba0cb7dd8260bc2ff0c95472e\jetified-firebase-analytics-ktx-20.0.2\AndroidManifest.xml:10:13-37
+90            <meta-data
+90-->[:firebase_auth] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+91-->[:firebase_auth] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_auth] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:firebase_storage] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+94-->[:firebase_storage] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_storage] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[:cloud_firestore] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+97-->[:cloud_firestore] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:cloud_firestore] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[:firebase_core] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+100-->[:firebase_core] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_core] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\f8999f3ba0cb7dd8260bc2ff0c95472e\jetified-firebase-analytics-ktx-20.0.2\AndroidManifest.xml:11:13-13:85
+103                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+103-->[com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\f8999f3ba0cb7dd8260bc2ff0c95472e\jetified-firebase-analytics-ktx-20.0.2\AndroidManifest.xml:12:17-126
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\f8999f3ba0cb7dd8260bc2ff0c95472e\jetified-firebase-analytics-ktx-20.0.2\AndroidManifest.xml:13:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+106                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+106-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\ce8e9ac38f93e020f1b5225e7813f898\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\06dc8f86d03509796000038c13d5138b\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+112                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+112-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\06dc8f86d03509796000038c13d5138b\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\06dc8f86d03509796000038c13d5138b\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\048081879bf27952a9bb5fa8f02a7e78\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+115-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\048081879bf27952a9bb5fa8f02a7e78\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\048081879bf27952a9bb5fa8f02a7e78\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+117            <meta-data
+117-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:30:13-32:85
+118                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+118-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:31:17-139
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\7dd5407c0d616e0932c7ba2ec6b5c2b0\jetified-play-services-measurement-api-20.0.2\AndroidManifest.xml:32:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\73d2c3667932f7669e2c98fcdf968630\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+121                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+121-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\73d2c3667932f7669e2c98fcdf968630\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\73d2c3667932f7669e2c98fcdf968630\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+123        </service>
+124
+125        <activity
+125-->[:url_launcher_android] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+126            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+126-->[:url_launcher_android] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+127            android:exported="false"
+127-->[:url_launcher_android] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+128            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+128-->[:url_launcher_android] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+129
+130        <uses-library
+130-->[androidx.window:window:1.0.0-beta04] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+131            android:name="androidx.window.extensions"
+131-->[androidx.window:window:1.0.0-beta04] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+132            android:required="false" />
+132-->[androidx.window:window:1.0.0-beta04] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+133        <uses-library
+133-->[androidx.window:window:1.0.0-beta04] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+134            android:name="androidx.window.sidecar"
+134-->[androidx.window:window:1.0.0-beta04] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+135            android:required="false" />
+135-->[androidx.window:window:1.0.0-beta04] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\3a23e2f8a97045c96af65370e0f1667b\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+136
+137        <activity
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+138            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+139            android:excludeFromRecents="true"
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+140            android:exported="true"
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+141            android:launchMode="singleTask"
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+143            <intent-filter>
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+144                <action android:name="android.intent.action.VIEW" />
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+147                <category android:name="android.intent.category.BROWSABLE" />
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+148
+149                <data
+149-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+150                    android:host="firebase.auth"
+151                    android:path="/"
+152                    android:scheme="genericidp" />
+153            </intent-filter>
+154        </activity>
+155        <activity
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+156            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+157            android:excludeFromRecents="true"
+157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+158            android:exported="true"
+158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+159            android:launchMode="singleTask"
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+161            <intent-filter>
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+165                <category android:name="android.intent.category.BROWSABLE" />
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+166
+167                <data
+167-->[:file_picker] C:\Users\Josafe\StudioProjects\dart_vero\lib\src\PBGalleryApp-master\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+168                    android:host="firebase.auth"
+169                    android:path="/"
+170                    android:scheme="recaptcha" />
+171            </intent-filter>
+172        </activity>
+173
+174        <service
+174-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+175            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+175-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+176            android:enabled="true"
+176-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+178            <intent-filter>
+178-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+179                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\c213f7520bc2fef4661aa0da3fb4a19f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+182            </intent-filter>
+183        </service>
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+187            android:authorities="com.pbanyuls.proyecto_paco.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+190            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+190-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\03c3d504b56bff883510361cdf036459\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+191        <uses-library
+191-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\9f15005d754c0374c068f2d68714f22b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+192            android:name="org.apache.http.legacy"
+192-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\9f15005d754c0374c068f2d68714f22b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+193            android:required="false" />
+193-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\9f15005d754c0374c068f2d68714f22b\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+194
+195        <activity
+195-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\96dc0a6123ca4c0315450d81633862fe\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+196            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+196-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\96dc0a6123ca4c0315450d81633862fe\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\96dc0a6123ca4c0315450d81633862fe\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+198            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+198-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\96dc0a6123ca4c0315450d81633862fe\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+199
+200        <receiver
+200-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:29:9-33:20
+201            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+201-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:30:13-85
+202            android:enabled="true"
+202-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:31:13-35
+203            android:exported="false" >
+203-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:32:13-37
+204        </receiver>
+205
+206        <service
+206-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:35:9-38:40
+207            android:name="com.google.android.gms.measurement.AppMeasurementService"
+207-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:36:13-84
+208            android:enabled="true"
+208-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:37:13-35
+209            android:exported="false" />
+209-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:38:13-37
+210        <service
+210-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:39:9-43:72
+211            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+211-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:40:13-87
+212            android:enabled="true"
+212-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:41:13-35
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:42:13-37
+214            android:permission="android.permission.BIND_JOB_SERVICE" />
+214-->[com.google.android.gms:play-services-measurement:20.0.2] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\5cdc1518fd07ef4eaf1f49340c12910f\jetified-play-services-measurement-20.0.2\AndroidManifest.xml:43:13-69
+215
+216        <meta-data
+216-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\57fd8e1d7bc2c4056398e541a1301e41\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+217            android:name="com.google.android.gms.version"
+217-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\57fd8e1d7bc2c4056398e541a1301e41\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+218            android:value="@integer/google_play_services_version" />
+218-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Josafe\.gradle\caches\transforms-2\files-2.1\57fd8e1d7bc2c4056398e541a1301e41\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+219    </application>
+220
+221</manifest>
